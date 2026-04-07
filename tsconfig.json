@@ -1,17 +1,15 @@
 {
   "compilerOptions": {
-    "target": "es2017",
+    "target": "es2019",
     "module": "esnext",
     "moduleResolution": "node",
-    "lib": ["es2017", "dom", "dom.iterable"],
-    "noEmit": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "strict": true,
+    "lib": ["es2019", "dom"],
+    "declaration": false,
+    "sourceMap": false,
+    "strict": false,
     "noImplicitAny": false,
-    "skipLibCheck": true,
-    "resolveJsonModule": true,
-    "experimentalDecorators": true
-  }
+    "experimentalDecorators": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*.ts"]
 }
