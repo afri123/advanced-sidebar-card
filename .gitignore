@@ -1,4 +1,25 @@
-node_modulesnode_modules/
+# Node.js Abhängigkeiten
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Mac OS Systemdateien
 .DS_Store
-dist/
+.AppleDouble
+.LSOverride
+
+# Editor- und IDE-Verzeichnisse
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript Cache
+*.tsbuildinfo
+
+# WICHTIG: sidebar-card.js wird absichtlich NICHT ignoriert, 
+# da HACS die kompilierte Datei im Repository benötigt!
