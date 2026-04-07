@@ -1,5 +1,6 @@
 {
-    "name": "Sidebar Card",
-    "render_readme": true,
-    "filename": "sidebar-card.js"
+  "name": "Advanced Sidebar Card",
+  "render_readme": true,
+  "filename": "advanced-sidebar-card.js",
+  "content_in_root": true
 }
